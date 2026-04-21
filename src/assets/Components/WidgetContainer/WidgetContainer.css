@@ -1,0 +1,14 @@
+.widget-container{
+    background-color: rgb(126, 231, 153);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    color : white;
+}
+
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+

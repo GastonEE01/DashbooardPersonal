@@ -1,0 +1,10 @@
+textarea{
+    background-color: black;
+    color: white;
+}
+
+.notes{
+    /*margin: auto;*/
+    background-color: orange;
+    border: 2px solid black;
+}
