@@ -1,0 +1,97 @@
+/* Contenedor principal */
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Label del toggle */
+.toggleLabel {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Input oculto para el checkbox */
+.hiddenInput {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Slider principal */
+.slider {
+  width: 96px;
+  height: 48px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #93c5fd, #bfdbfe);
+  position: relative;
+  transition: all 0.5s;
+}
+
+.sliderDark {
+  background: linear-gradient(135deg, #1e293b, #334155);
+}
+
+/* Círculo que se mueve */
+.slider::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 9999px;
+  transition: transform 0.5s;
+}
+
+/* Cuando está en modo oscuro, el círculo se mueve a la derecha */
+.sliderDark::after {
+  transform: translateX(48px);
+}
+
+/* Contenedor de íconos */
+.iconsContainer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  pointer-events: none;
+}
+
+/* Icono del sol */
+.sunIcon {
+  width: 32px;
+  height: 32px;
+  color: #fbbf24;
+}
+
+/* Icono de la luna */
+.moonIcon {
+  width: 24px;
+  height: 24px;
+  color: #e2e8f0;
+}
+
+/* Texto del modo */
+.textMode {
+  margin-left: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.textLight {
+  color: #0f172a;
+}
+
+.textDark {
+  color: #e2e8f0;
+}
