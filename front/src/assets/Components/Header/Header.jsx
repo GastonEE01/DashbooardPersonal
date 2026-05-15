@@ -2,29 +2,37 @@ import React, { useState } from 'react'
 import './Header.css'
 import '../AddWidgetModal/AddWidgetModal'
 import { AddWidgetModal } from '../AddWidgetModal/AddWidgetModal'
-import { useTheme } from '../Context/ThemeContext'
+import { ProfileModal } from '../Profile/ProfileModal'
+import { useTheme } from '../Context/useTheme'
+
+import { ButtonDark } from '../UIX/ButtonDark'
+import { Button } from '../UIX/Button'
 
 export const Header = ({addWidget}) => {
 
-  const [showModal, setShowModal] = useState(false)
+  const [showModalButtons, setShowModalButtons] = useState(false)
+  const [showModalPerfil, setShowModalPerfil] = useState(false)
   const {darkMode, toggleDarkMode } = useTheme()
 
   return (
-    <header className={darkMode ? 'dark' : 'light'}>
-    <div >
-      <h1>Mi Dashboard</h1>
-      <button onClick={toggleDarkMode}>{darkMode ? 'Modo Claro' : 'Modo Oscuro'}</button>
-      <button onClick={() => setShowModal(true)}>+ Agregar</button>
-      {showModal && (
-        <AddWidgetModal 
-          addWidget = {addWidget}
-          onClose= {() => setShowModal(false)}
-        />
+    <header className={`header ${darkMode ? 'dark' : 'light'}`}>
+      <h1 className="title">Mi Dashboard</h1>
+
+      <div className='buttons'>
+      <ButtonDark onClick={toggleDarkMode}>{darkMode ? 'light' : 'dark'} </ButtonDark>
+      <Button onClick={() => setShowModalButtons(true)}>+ Agregar</Button>
+      {showModalButtons && (
+        <AddWidgetModal addWidget = {addWidget} onClose= {() => setShowModalButtons(false)} />
+      )}
+      <Button onClick={() => setShowModalPerfil(true)}>Perfil</Button>
+      {showModalPerfil && (
+        <ProfileModal onClose= {() => setShowModalPerfil(false)} />
       )}
 
     </div>
     </header>
   )
 }
+//    <header className={darkMode ? 'dark' : 'light'}>
 
 //      <button onClick={() => {addWidget}}>+ Agregar</button>

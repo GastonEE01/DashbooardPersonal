@@ -1,31 +1,28 @@
-import {createContext,useContext,useEffect,useState} from 'react'
+import {createContext,useEffect,useState} from 'react'
 
-const ThemeContext = createContext()
+export const ThemeContext = createContext()
 
 export const ThemeProvider = ({children}) => {
+
     const [darkMode,setDarkMode] = useState(() => {
         const saved = localStorage.getItem('theme')
-        return saved ? JSON.parse(saved) : false
+           return saved === 'dark'
+
     })
 
     const toggleDarkMode = () =>{
         setDarkMode(prev => !prev)
     }
-/*
-    useEffect(() => {
-        localStorage.setItem('theme',JSON.stringify(darkMode))
-        document.body.classList.toggle('dark', darkMode)
-        
 
-    },[darkMode]);
-    */
    useEffect(() => {
-  document.body.classList.remove('dark', 'light')
+    localStorage.setItem('theme', darkMode ? 'dark' : 'light')
 
   if (darkMode) {
     document.body.classList.add('dark')
+    document.body.classList.remove('light')
   } else {
     document.body.classList.add('light')
+    document.body.classList.remove('dark')
   }
 
 }, [darkMode])
@@ -37,5 +34,4 @@ export const ThemeProvider = ({children}) => {
   )
 }
 
-export const useTheme = () => useContext(ThemeContext)
 

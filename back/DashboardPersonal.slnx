@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DashboardPersonal.API/DashboardPersonal.API.csproj" />
+  <Project Path="DashboardPersonal.Application/DashboardPersonal.Application.csproj" />
+  <Project Path="DashboardPersonal.Domain/DashboardPersonal.Domain.csproj" />
+  <Project Path="DashboardPersonal.Infrastructure/DashboardPersonal.Infrastructure.csproj" />
+  <Project Path="DashboardPersonal.Test/DashboardPersonal.Test.csproj" Id="7d5b71c5-d15d-43e2-92c9-a5ecd2fa3a0e" />
+</Solution>

@@ -1,7 +1,10 @@
-import {useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react'
+import '../WeatherWidget/WeatherWidget.css'
+
+const API_URL = import.meta.env.VITE_API_URL;
 
 export const WeatherWidget = ({onDelete}) => {
-    const api = 'https://wttr.in/Buenos_Aires?format=j1'
+    const api = `${API_URL}/api/weather`
     const [weather,setWeather] = useState(null)
 
     useEffect(() => {
@@ -11,17 +14,202 @@ export const WeatherWidget = ({onDelete}) => {
     }, [])
     if(!weather) return <p>Cargando clima</p>
     
-    const temp = weather.current_condition[0].temp_C
+  const temp = weather.current_condition[0].temp_C
   const desc = weather.current_condition[0].weatherDesc[0].value
- 
+  const ubicacion = `${weather?.nearest_area?.[0]?.areaName[0].value}, ${weather?.nearest_area?.[0]?.country[0].value}`;
+  const currentDayName = new Date().toLocaleDateString('es-AR', { weekday: 'long', day: 'numeric', month: 'long' });
+
   return (
     
    <div className="widget">
-    <button onClick={onDelete}> X</button>
+<div className="card">
+    <button className="delete-button" onClick={onDelete}> X</button>
 
-      <h3>Clima</h3>
-      <p>{temp}°C</p>
-      <p>{desc}</p>
+  <section className="landscape-section">
+    <div className="sky"></div>
+    <div className="sun"></div>
+    <div className="hill-1"></div>
+    <div className="hill-2"></div>
+    <div className="ocean">
+      <div className="reflection"></div>
+      <div className="reflection"></div>
+      <div className="reflection"></div>
+      <div className="reflection"></div>
+      <div className="reflection"></div>
+      <div className="shadow-hill-1"></div>
+      <div className="shadow-hill-2"></div>
+    </div>
+    <div className="hill-3"></div>
+    <div className="hill-4"></div>
+    <div className="tree-1">
+      <svg
+        stroke-width="0.00064"
+        stroke="#b77873"
+        fill="#b77873"
+        xml:space="preserve"
+        viewBox="0 0 64.00 64.00"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns="http://www.w3.org/2000/svg"
+        id="Layer_1"
+        version="1.0"
+      >
+        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+        <g
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          id="SVGRepo_tracerCarrier"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <path
+            d="M32,0C18.148,0,12,23.188,12,32c0,9.656,6.883,17.734,16,19.594V60c0,2.211,1.789,4,4,4s4-1.789,4-4v-8.406 C45.117,49.734,52,41.656,52,32C52,22.891,46.051,0,32,0z"
+            fill="#b77873"
+          ></path>
+        </g>
+      </svg>
+    </div>
+    <div className="tree-2">
+      <svg
+        stroke-width="0.00064"
+        stroke="#b77873"
+        fill="#b77873"
+        xml:space="preserve"
+        viewBox="0 0 64.00 64.00"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns="http://www.w3.org/2000/svg"
+        id="Layer_1"
+        version="1.0"
+      >
+        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+        <g
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          id="SVGRepo_tracerCarrier"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <path
+            d="M32,0C18.148,0,12,23.188,12,32c0,9.656,6.883,17.734,16,19.594V60c0,2.211,1.789,4,4,4s4-1.789,4-4v-8.406 C45.117,49.734,52,41.656,52,32C52,22.891,46.051,0,32,0z"
+            fill="#b77873"
+          ></path>
+        </g>
+      </svg>
+    </div>
+    <div className="tree-3">
+      <svg
+        version="1.0"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 64.00 64.00"
+        xml:space="preserve"
+        fill="#a16773"
+        stroke="#a16773"
+        stroke-width="0.00064"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <path
+            fill="#a16773"
+            d="M32,0C18.148,0,12,23.188,12,32c0,9.656,6.883,17.734,16,19.594V60c0,2.211,1.789,4,4,4s4-1.789,4-4v-8.406 C45.117,49.734,52,41.656,52,32C52,22.891,46.051,0,32,0z"
+          ></path>
+        </g>
+      </svg>
+    </div>
+    <div className="filter"></div>
+  </section>
+
+  <section className="content-section">
+    <div className="weather-info">
+      <div className="left-side">
+        <div className="icon">
+          <svg
+            stroke="#000000"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+            <g
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              id="SVGRepo_tracerCarrier"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                stroke-linecap="round"
+                stroke-width="1.5"
+                stroke="#ffffff"
+                d="M22 14.3529C22 17.4717 19.4416 20 16.2857 20H11M14.381 9.02721C14.9767 8.81911 15.6178 8.70588 16.2857 8.70588C16.9404 8.70588 17.5693 8.81468 18.1551 9.01498M7.11616 11.6089C6.8475 11.5567 6.56983 11.5294 6.28571 11.5294C3.91878 11.5294 2 13.4256 2 15.7647C2 18.1038 3.91878 20 6.28571 20H7M7.11616 11.6089C6.88706 10.9978 6.7619 10.3369 6.7619 9.64706C6.7619 6.52827 9.32028 4 12.4762 4C15.4159 4 17.8371 6.19371 18.1551 9.01498M7.11616 11.6089C7.68059 11.7184 8.20528 11.9374 8.66667 12.2426M18.1551 9.01498C18.8381 9.24853 19.4623 9.60648 20 10.0614"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <p>{desc}</p>
+      </div>
+      <div className="right-side">
+        <div className="location">
+          <div>
+            <svg
+              version="1.0"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="64px"
+              height="64px"
+              viewBox="0 0 64 64"
+              xml:space="preserve"
+              fill="#ffffff"
+              stroke="#ffffff"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill="#ffffff"
+                  d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24 C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24 C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z"
+                ></path>
+              </g>
+            </svg>
+            <span>{ubicacion}</span>
+          </div>
+        </div>
+        <p  style={{ textTransform: 'capitalize' }}>{currentDayName}</p>
+        <p className="temperature">{temp}°C</p>
+      </div>
+    </div>
+    <div className="forecast">
+  {weather.weather.slice(1,4).map((day, index) => {
+    // Convertimos el string "2023-10-25" a un nombre de día (Martes, etc.)
+    const nextDayName  = new Date(day.date + "T00:00:00").toLocaleDateString('es-ES', { 
+      weekday: 'long', 
+      day: 'numeric' 
+    });
+
+    return (
+      <React.Fragment key={day.date}>
+        <div>
+          <p style={{ textTransform: 'capitalize', fontSize: '0.8rem' }}>{nextDayName}</p>
+          {/* Mostramos la temperatura máxima prevista para ese día */}
+          <p>{day.maxtempC}°C</p>
+        </div>
+        {/* Agregamos el separador solo entre los elementos, no al final */}
+        {index < weather.weather.length - 1 && <div className="separator"></div>}
+      </React.Fragment>
+    );
+  })}
+</div>
+
+  </section>
+</div>
+
     </div>
   )
   

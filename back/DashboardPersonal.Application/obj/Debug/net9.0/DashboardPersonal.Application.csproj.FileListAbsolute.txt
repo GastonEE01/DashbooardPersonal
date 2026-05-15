@@ -1,0 +1,16 @@
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\bin\Debug\net9.0\DashboardPersonal.Application.deps.json
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\bin\Debug\net9.0\DashboardPersonal.Application.dll
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\bin\Debug\net9.0\DashboardPersonal.Application.pdb
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\bin\Debug\net9.0\DashboardPersonal.Domain.dll
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\bin\Debug\net9.0\DashboardPersonal.Domain.pdb
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\DashboardPersonal.Application.csproj.AssemblyReference.cache
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\DashboardPersonal.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\DashboardPersonal.Application.AssemblyInfoInputs.cache
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\DashboardPersonal.Application.AssemblyInfo.cs
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\DashboardPersonal.Application.csproj.CoreCompileInputs.cache
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\DashboardPersonal.Application.sourcelink.json
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\Dashboar.86B43F59.Up2Date
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\DashboardPersonal.Application.dll
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\refint\DashboardPersonal.Application.dll
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\DashboardPersonal.Application.pdb
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Application\obj\Debug\net9.0\ref\DashboardPersonal.Application.dll

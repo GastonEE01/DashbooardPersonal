@@ -1,14 +1,28 @@
-.widget-container{
-    background-color: rgb(126, 231, 153);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    color : white;
+.widget-container.dark {
+  background-color: brown;
 }
 
+.widget-container.light {
+  background-color: white(228, 193, 193);
+}
 
+.widget-container {
+  /* ELIMINÉ el display: grid; para que los widgets puedan flotar libremente */
+  position: relative; /* Sin comillas y con punto y coma */
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Esta clase ya no la necesitas si vas a mover todo libremente */
 .col {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  display: none; 
 }
 
+.widget {
+  position: absolute; /* Estaba escrito "postion" */
+  cursor: grab; /* Sin comillas */
+  z-index: 10; /* En CSS es con guion, no zIndex */
+  display: inline-block; /* Estaba escrito "incline" */
+  
+}

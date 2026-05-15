@@ -1,17 +1,35 @@
 import React from 'react'
 import '../AddWidgetModal/AddWidgetModal.css'
+import { Button } from '../UIX/Button'
 export const AddWidgetModal = ({addWidget,onClose}) => {
-    return (
+   return (
+      <div className="modal-overlay">
+        <div className="modal">
 
-    <div>
-      <h2>Agregar Widget </h2>
-       <div className='modal'>
-       <button onClick={onClose}>Cerrar</button>
-      <button onClick = {() => {addWidget('clock'); onClose();}}>Reloj</button>
-      <button onClick = {() => { addWidget('notes'); onClose();}}>Notas</button>
-      <button onClick = {() => {addWidget('quote'); onClose();}}>Frase</button>
-      <button onClick={() => { addWidget('weather'); onClose(); }}>Clima</button>
-    </div>
-    </div>
-  )
-}
+          <div className="go-corner">
+            <div onClick={onClose} className="go-arrow">X</div>
+          </div>
+
+          <h2>Agregar Widget</h2>
+
+          <Button  className="modal-button" onClick={() => { addWidget('clock'); onClose(); }}>
+            Reloj
+          </Button>
+
+          <Button className="modal-button" onClick={() => { addWidget('notes'); onClose(); }}>
+            Notas
+          </Button>
+
+          <Button className="modal-button" onClick={() => { addWidget('quote'); onClose(); }}>
+            Frase
+          </Button>
+
+          <Button className="modal-button" onClick={() => { addWidget('weather'); onClose(); }}>
+            Clima
+          </Button>
+
+        </div>
+      </div>
+    )
+  }
+

@@ -1,0 +1,12 @@
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\bin\Debug\net9.0\DashboardPersonal.Domain.deps.json
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\bin\Debug\net9.0\DashboardPersonal.Domain.dll
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\bin\Debug\net9.0\DashboardPersonal.Domain.pdb
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\obj\Debug\net9.0\DashboardPersonal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\obj\Debug\net9.0\DashboardPersonal.Domain.AssemblyInfoInputs.cache
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\obj\Debug\net9.0\DashboardPersonal.Domain.AssemblyInfo.cs
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\obj\Debug\net9.0\DashboardPersonal.Domain.csproj.CoreCompileInputs.cache
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\obj\Debug\net9.0\DashboardPersonal.Domain.sourcelink.json
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\obj\Debug\net9.0\DashboardPersonal.Domain.dll
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\obj\Debug\net9.0\refint\DashboardPersonal.Domain.dll
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\obj\Debug\net9.0\DashboardPersonal.Domain.pdb
+C:\Users\estev\Desktop\Unlam\React\MiPractica\DashboardConWidgets\back\DashboardPersonal.Domain\obj\Debug\net9.0\ref\DashboardPersonal.Domain.dll

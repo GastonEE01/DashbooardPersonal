@@ -1,0 +1,622 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|solutionrelative:dashboardpersonal.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\dtos\\users\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\dtos\\users\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\usecases\\users\\createuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\usecases\\users\\createuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.infrastructure\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|solutionrelative:dashboardpersonal.infrastructure\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.api\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|solutionrelative:dashboardpersonal.api\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|solutionrelative:dashboardpersonal.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.api\\controllers\\widgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|solutionrelative:dashboardpersonal.api\\controllers\\widgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\usecases\\widgets\\createwidgetusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\usecases\\widgets\\createwidgetusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\dtos\\widget\\widgetresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\dtos\\widget\\widgetresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\dtos\\widget\\widgetrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\dtos\\widget\\widgetrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\dtos\\apiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\dtos\\apiresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\dtos\\users\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\dtos\\users\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\usecases\\widgets\\deletewidgetusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\usecases\\widgets\\deletewidgetusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.infrastructure\\repositories\\widgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|solutionrelative:dashboardpersonal.infrastructure\\repositories\\widgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\interfaces\\iwidgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\interfaces\\iwidgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|solutionrelative:dashboardpersonal.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2547C01-660F-3299-F310-232B732FE47D}|DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.domain\\entities\\widget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2547C01-660F-3299-F310-232B732FE47D}|DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj|solutionrelative:dashboardpersonal.domain\\entities\\widget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|solutionrelative:dashboardpersonal.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|solutionrelative:dashboardpersonal.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\dtos\\profile\\profiledatarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\dtos\\profile\\profiledatarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\dtos\\profile\\userprofileresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\dtos\\profile\\userprofileresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2547C01-660F-3299-F310-232B732FE47D}|DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.domain\\dashboardpersonal.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2547C01-660F-3299-F310-232B732FE47D}|DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj|solutionrelative:dashboardpersonal.domain\\dashboardpersonal.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\usecases\\users\\loginuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\usecases\\users\\loginuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2547C01-660F-3299-F310-232B732FE47D}|DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2547C01-660F-3299-F310-232B732FE47D}|DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj|solutionrelative:dashboardpersonal.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|solutionrelative:dashboardpersonal.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.infrastructure\\repositories\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|solutionrelative:dashboardpersonal.infrastructure\\repositories\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\interfaces\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\interfaces\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\usecases\\profile\\profilechangerdatausecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\usecases\\profile\\profilechangerdatausecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\dtos\\users\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\dtos\\users\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.application\\interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77847909-5F4D-241D-E31B-D9377E27158E}|DashboardPersonal.Application\\DashboardPersonal.Application.csproj|solutionrelative:dashboardpersonal.application\\interfaces\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.infrastructure\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE3FA1F-338B-69FC-3FDF-92A1AE7E3C89}|DashboardPersonal.Infrastructure\\DashboardPersonal.Infrastructure.csproj|solutionrelative:dashboardpersonal.infrastructure\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5B71C5-D15D-43E2-92C9-A5ECD2FA3A0E}|DashboardPersonal.Test\\DashboardPersonal.Test.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.test\\createuserusecasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5B71C5-D15D-43E2-92C9-A5ECD2FA3A0E}|DashboardPersonal.Test\\DashboardPersonal.Test.csproj|solutionrelative:dashboardpersonal.test\\createuserusecasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|c:\\users\\estev\\desktop\\unlam\\react\\mipractica\\dashboardconwidgets\\back\\dashboardpersonal.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3FB256EE-0450-D491-5AF9-DE11950DCE42}|DashboardPersonal.API\\DashboardPersonal.API.csproj|solutionrelative:dashboardpersonal.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 40,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.API\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "DashboardPersonal.API\\Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T23:51:50.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IWeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IWeatherService.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\Interfaces\\IWeatherService.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IWeatherService.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\Interfaces\\IWeatherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T23:47:51.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Infrastructure\\Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Services\\WeatherService.cs",
+              "RelativeToolTip": "DashboardPersonal.Infrastructure\\Services\\WeatherService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T23:47:34.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WidgetResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Widget\\WidgetResponseDto.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\DTOs\\Widget\\WidgetResponseDto.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Widget\\WidgetResponseDto.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\DTOs\\Widget\\WidgetResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T18:53:10.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Users\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\DTOs\\Users\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Users\\LoginResponseDto.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\DTOs\\Users\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T18:51:02.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteWidgetUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Widgets\\DeleteWidgetUseCase.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\UseCases\\Widgets\\DeleteWidgetUseCase.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Widgets\\DeleteWidgetUseCase.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\UseCases\\Widgets\\DeleteWidgetUseCase.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAASwBQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:51:36.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateWidgetUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Widgets\\CreateWidgetUseCase.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\UseCases\\Widgets\\CreateWidgetUseCase.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Widgets\\CreateWidgetUseCase.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\UseCases\\Widgets\\CreateWidgetUseCase.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA1wBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:27.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WidgetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Repositories\\WidgetRepository.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Infrastructure\\Repositories\\WidgetRepository.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Repositories\\WidgetRepository.cs",
+              "RelativeToolTip": "DashboardPersonal.Infrastructure\\Repositories\\WidgetRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:05:34.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Widget.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Domain\\Entities\\Widget.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Domain\\Entities\\Widget.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Domain\\Entities\\Widget.cs",
+              "RelativeToolTip": "DashboardPersonal.Domain\\Entities\\Widget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T16:46:21.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IWidgetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IWidgetRepository.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\Interfaces\\IWidgetRepository.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IWidgetRepository.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\Interfaces\\IWidgetRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T16:44:44.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WidgetRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Widget\\WidgetRequestDto.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\DTOs\\Widget\\WidgetRequestDto.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Widget\\WidgetRequestDto.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\DTOs\\Widget\\WidgetRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T16:40:26.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WidgetController.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\WidgetController.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.API\\Controllers\\WidgetController.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\WidgetController.cs",
+              "RelativeToolTip": "DashboardPersonal.API\\Controllers\\WidgetController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAApwCwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T16:35:18.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserProfileResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Profile\\UserProfileResponseDto.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\DTOs\\Profile\\UserProfileResponseDto.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Profile\\UserProfileResponseDto.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\DTOs\\Profile\\UserProfileResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:57:37.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Repositories\\ProfileRepository.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Infrastructure\\Repositories\\ProfileRepository.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Repositories\\ProfileRepository.cs",
+              "RelativeToolTip": "DashboardPersonal.Infrastructure\\Repositories\\ProfileRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:54:13.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IProfileRepository.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\Interfaces\\IProfileRepository.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IProfileRepository.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\Interfaces\\IProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:40:27.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProfileChangerDataUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Profile\\ProfileChangerDataUseCase.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\UseCases\\Profile\\ProfileChangerDataUseCase.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Profile\\ProfileChangerDataUseCase.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\UseCases\\Profile\\ProfileChangerDataUseCase.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:36:44.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProfileDataRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Profile\\ProfileDataRequestDto.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\DTOs\\Profile\\ProfileDataRequestDto.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Profile\\ProfileDataRequestDto.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\DTOs\\Profile\\ProfileDataRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:33:54.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "DashboardPersonal.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:30:02.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.API\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "DashboardPersonal.API\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:28:36.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Users\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\DTOs\\Users\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Users\\RegisterRequestDto.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\DTOs\\Users\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T02:53:53.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IPasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IPasswordService.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\Interfaces\\IPasswordService.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IPasswordService.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\Interfaces\\IPasswordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T20:09:19.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Infrastructure\\Services\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Services\\PasswordService.cs",
+              "RelativeToolTip": "DashboardPersonal.Infrastructure\\Services\\PasswordService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T20:06:20.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\appsettings.json",
+              "RelativeDocumentMoniker": "DashboardPersonal.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\appsettings.json",
+              "RelativeToolTip": "DashboardPersonal.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-10T19:39:26.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "DashboardPersonal.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T23:57:12.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\ApiResponseDto.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\DTOs\\ApiResponseDto.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\ApiResponseDto.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\DTOs\\ApiResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T21:51:20.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DashboardPersonal.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:21:41.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DashboardPersonal.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj",
+              "RelativeDocumentMoniker": "DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj",
+              "RelativeToolTip": "DashboardPersonal.Domain\\DashboardPersonal.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-07T20:18:25.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateUserUseCaseTests.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Test\\CreateUserUseCaseTests.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Test\\CreateUserUseCaseTests.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Test\\CreateUserUseCaseTests.cs",
+              "RelativeToolTip": "DashboardPersonal.Test\\CreateUserUseCaseTests.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:28:54.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Program.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.API\\Program.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Program.cs",
+              "RelativeToolTip": "DashboardPersonal.API\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:13:10.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Users\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\DTOs\\Users\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\DTOs\\Users\\LoginRequestDto.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\DTOs\\Users\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:11:50.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Users\\CreateUserUseCase.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\UseCases\\Users\\CreateUserUseCase.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Users\\CreateUserUseCase.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\UseCases\\Users\\CreateUserUseCase.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:08:28.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DashboardPersonal.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:04:54.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:01:51.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginUserUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Users\\LoginUserUseCase.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.Application\\UseCases\\Users\\LoginUserUseCase.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.Application\\UseCases\\Users\\LoginUserUseCase.cs",
+              "RelativeToolTip": "DashboardPersonal.Application\\UseCases\\Users\\LoginUserUseCase.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:56:26.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "DashboardPersonal.API\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\estev\\Desktop\\Unlam\\React\\MiPractica\\DashboardConWidgets\\back\\DashboardPersonal.API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "DashboardPersonal.API\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:53:38.246Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
