@@ -41,7 +41,9 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy
-                .AllowAnyOrigin()
+                .WithOrigins(
+                "http://localhost:5173",
+                "https://dashbooard-personal.vercel.app")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
@@ -63,7 +65,7 @@ app.UseSwaggerUI(c =>
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowReact");
+app.UseCors("AllowFrontend");
 
 app.UseAuthorization();
 
