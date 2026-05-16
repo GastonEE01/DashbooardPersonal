@@ -37,7 +37,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReact",
+    options.AddPolicy("AllowFrontend",
         policy =>
         {
             policy
