@@ -11,8 +11,8 @@ import { saveWidget,removeWidget  } from './assets/Services/api.js'
 import './App.css'
 
 // Paginas 
-import { Login } from './assets/Components/pages/Login'
-import { Register } from './assets/Components/pages/Register'
+import { Login } from './assets/Components/Pages/Login'
+import { Register } from './assets/Components/Pages/Register'
 
 
 function App() {
